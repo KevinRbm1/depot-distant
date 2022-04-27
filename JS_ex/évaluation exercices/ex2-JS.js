@@ -9,7 +9,8 @@ for (var i = 1; i < 11; i++) {
     
     var result = ' x   ';
 
-function buff(val){
+function buff(val)
+{
   var buff = '';
   var pad = 4 - val;
     while( pad-- > 0 )
