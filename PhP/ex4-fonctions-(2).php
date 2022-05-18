@@ -7,9 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <?
- $tab = array(4, 3, 8, 2);
- $resultat = somme($tab);
-    ?>
+<?php
+$tab = array(4,3,8,2);
+// Somme d'un tableau
+echo array_sum($tab);
+?>
 </body>
 </html>
