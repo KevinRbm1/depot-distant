@@ -26,7 +26,7 @@
 > ## Exos PHP
 
 * [ex2](PhP/ex2.php) · · · · · · · · · · · · · · · · · · · > Phrase
-* [ex3](PhP/ex3-Tdm.php) · · · · · · · · · · · · · · · · · · · > Table de multiplication
+* [ex3](PhP/ex3-TdM.php) · · · · · · · · · · · · · · · · · · · > Table de multiplication
 * [ex4](PhP/ex4-fonctions.php) · · · · · · · · · · · · · · · · · · · > Fonctions liens
 * [ex4](PhP/ex4-fonctions-(2).php) · · · · · · · · · · · · · · · · · · · > Somme des valeurs
-* [ex5](PhP/ex5-fonctions) · · · · · · · · · · · · · · · · · · · > vérification mot de passe
+* [ex5](PhP/ex5-fonctions.php) · · · · · · · · · · · · · · · · · · · > vérification mot de passe
