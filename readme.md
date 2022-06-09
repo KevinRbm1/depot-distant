@@ -8,11 +8,11 @@
 
 > ## Exos JavaScript
 
-* [1](JS_ex/1) -> Calcul du nombre de jeunes, de moyens et de vieux
-* [2](JS_ex/2) -> Table de multiplication
-* [3](JS_ex/3) -> Recherche d'un prénom
-* [4](JS_ex/4) -> Total d'une commande
-* [5](JS_ex/5) -> Vérification d'un formulaire
+* [1](JS_ex/évaluation%20exercices/1) -> Calcul du nombre de jeunes, de moyens et de vieux
+* [2](JS_ex/évaluation%20exercices/2) -> Table de multiplication
+* [3](JS_ex/évaluation%20exercices/3) -> Recherche d'un prénom
+* [4](JS_ex/évaluation%20exercices/4) -> Total d'une commande
+* [5](JS_ex/évaluation%20exercices/5) -> Vérification d'un formulaire
 
 > ## Exos SQL
 
