@@ -1,15 +1,30 @@
 # **Formation développeur web AFPA**
 
-> ## Projets
+> ## Projet
+
+![Logo Jarditou](jarditou/images/jarditouLogo.jpg "Logo Jarditou")
 
 1. [Jarditou](html-ex1/) · · · · · · · · · · · > Jarditou HTML
 2. [Jarditou CSS](html_css-ex2/) · · · · · · · > Jarditou CSS
 3. [Jarditou Bootstrap](BootstrapEx/)· ·> JarditouBootstrap
 4. [Jarditou JavaScript](JS_ex/évaluation%20exercices) · > Jarditou JavaScript
-1. [Velvet Record](PhP/Php_PDO) · · · · · · > Velvet Record
 
+> ## Velvet Record
 
-> ## Exos JavaScript
+![logo du vinyle](vinyle.png "Vinyle")
+
+1. [Velvet Rectord](velvet%20record) · · · · · > Velvet Record
+<br><br>
+
+> # ***Exercices / Evaluation***
+<br>
+
+> ##  JavaScript
+
+<br>
+<img src="logo_src/js.png" width="100">
+<br>
+<br>
 
 * [1](JS_ex/évaluation%20exercices/1) · · · · · · · · · · · · · · · · · · · > Calcul du nombre de jeunes, de moyens et de vieux
 * [2](JS_ex/évaluation%20exercices/2) · · · · · · · · · · · · · · · · · · · > Table de multiplication
@@ -17,13 +32,21 @@
 * [4](JS_ex/évaluation%20exercices/4) · · · · · · · · · · · · · · · · · · · > Total d'une commande
 * [5](JS_ex/évaluation%20exercices/5) · · · · · · · · · · · · · · · · · · · > Vérification d'un formulaire
 
-> ## Exos SQL
+> ##  SQL
+<br>
+<img src="logo_src/sql.png" width="100">
+<br>
+<br>
 
 * [Eval Requêtes de BDD](Eval%20Requêtes%20de%20BDD/) · > Évaluation SQL, cas Northwind
 * [hotelreq](ExSQL/hotelreq.sql) · · · · · · · · · · · · · ·  > Cas hôtel
 * [Ex SQL-Papyrus](ExSQL/papyrus-requete.sql) · · · · · · · · > Cas Papyrus
 
-> ## Exos PHP
+> ##  PHP
+<br>
+<img src="logo_src/php.png" width="100">
+<br>
+<br>
 
 * [ex2](PhP/ex2.php) · · · · · · · · · · · · · · · · · · · > Phrase
 * [ex3](PhP/ex3-TdM.php) · · · · · · · · · · · · · · · · · · · > Table de multiplication
