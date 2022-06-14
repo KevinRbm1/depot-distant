@@ -16,19 +16,15 @@
 
 <?php include "db.php"; // connexion à la base de données
 $db = ConnexionBase(); // connexion
-// éviter l'injection SQL [ prepare(la requête) puis execute() ]
 $conn = $db->prepare("SELECT artist_name, artist.artist_id as id FROM artist, disc WHERE artist.artist_id = disc.artist_id GROUP BY artist_name");
 $conn->execute();
 // Récupèration des lignes restantes d'un ensemble de résultats
 $result = $conn->fetchAll(PDO::FETCH_OBJ);
-// print_r($result); // pour voir si les infos remontent
 ?>
-    <!-- Formulaire d'ajout de vinyle -->
     <form class="container" method="GET" action="">
         <h2>Ajouter un.e artiste</h2>
             <label>Titre</label>
             <input type="text" class="form-control" id="NOM" placeholder="Entrer le titre"><br>
-            <!-- devra aller chercher les éléments dans la bdd -->
             <label for="exampleFormControlSelect1">Artiste</label>
             <select class="form-control" id="exampleFormControlSelect1">
                 <?php
@@ -49,9 +45,7 @@ $result = $conn->fetchAll(PDO::FETCH_OBJ);
             <label>Image</label><br>
             <label for="insertPicture"></label>
             <input type="file" class="form-control-file" id="insertPicture"><br><br>
-            <!-- bouton ajouter -->
             <a href="script_artist_ajout.php"<button type="submit" class="btn btn-success btn-sm mb-3">Ajouter</button></a>
-            <!-- bouton retour -->
             <a href="disc.php"><button type="button" class="btn btn-warning btn-sm mb-3">Retour</button></a>
     </form>
     <?php

@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/styles.css" rel="stylesheet"> <!-- Feuille de style générale -->
-  <link href="css/styles_disc.css" rel="stylesheet"> <!-- Feuille de  syle excludive -->
+  <link href="css/styles.css" rel="stylesheet"> 
+  <link href="css/styles_disc.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <title>Liste des disques</title>
 </head>
@@ -19,12 +19,10 @@ include 'php/header.php';
 
   <?php include "php/db.php"; // connexion à la base de données
   $db = ConnexionBase(); // connexion
-  // éviter l'injection SQL [ prepare(la requête) puis execute() ]
   $disques = $db->prepare("SELECT * FROM disc, artist WHERE artist.artist_id = disc.artist_id ;"); // ORDER BY disc_title
   $disques->execute();
 
   $result = $disques->fetchAll(PDO::FETCH_OBJ);
-  // print_r($result); // pour voir si les infos remontent
   ?>
 
   <div class="container conteneur">
@@ -40,10 +38,7 @@ include 'php/header.php';
       </div> <!-- End of col-1 , button 'ajouter' -->
     </div> <!-- End of row -->
   </div> <!-- End of container -->
-  <!-- La jaquette est à gauche et les infos à droite -->
-  <!-- deux colonnes contenant deux colonnes -->
   <div class="container">
-    <!-- CETTE PORTION DEVRA ÊTRE REPRODUITE PAR PHP À CHAQUE NOUVELLE LIGNE -->
     <div class="row row-cols-1 row-cols-md-2">
       <?php foreach ($result as $disc) : ?>
         <div class="card mb-3 border-0" style="max-width: 540px;">
@@ -60,7 +55,6 @@ include 'php/header.php';
                 <p>Genre : <?= $disc->disc_genre ?></p>
                 <p>Prix : <?= $disc->disc_price ?></p>
                 <a href="php/disc_detail.php?id=<?= $disc->disc_id ?>"> <button type="button" class="btn btn-sm btn-primary">Détails</button></a>
-                <!--- vers disc_detail et pas artist_detail une fois disc_detail corrigé -->
               </div> <!-- End of div card -->
             </div> <!-- End of div pour les infos des disques -->
           </div> <!-- End of row gutter (goutière) -->

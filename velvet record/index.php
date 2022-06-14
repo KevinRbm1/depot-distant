@@ -10,7 +10,6 @@
 </head>
 
 <body>
-    <!-- PDO -> PHP Data Object -->
 </body>
 
 </html>
@@ -24,7 +23,6 @@
     </div><!-- End of temporary div logo -->
 <br><br><br><br>
 
-    <!-- 2 boutons -->
     <div class="text-center">
         <a href="./php/authentification.php"><button type="button" class="btn btn-outline-dark btn-lg mx-5">S'inscrire</button></a>
         <a href="./php/authentification.php"><button type="button" class="btn btn-outline-dark btn-lg mx-5">Se connecter</button></a>
