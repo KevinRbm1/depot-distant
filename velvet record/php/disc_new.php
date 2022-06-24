@@ -17,8 +17,6 @@
 <body>
     <div class="container">
         <h2>Ajouter un vinyle</h2>
-        <!-- les infos doivent s'ajouter à la table disc -->
-        <!-- le contenu doit venir de la bdd record de la table disc -->
         <form action="disc_form.php?disc_id=1" method="get">
             <label>Titre</label>
             <input type="text" class="form-control" name="title" placeholder="Saisir le titre">
@@ -38,10 +36,7 @@
             <!--<input type=" titre" class="form-control" name="jaquette"">-->
             <!-- <img src=" inm/jaquette <?= $disc->disc_picture ?>" alt="..." class="rounded float-left img-fluid img-thumbnail"><br><br> -->
             <div class="d-flex">
-                <!-- les boutons ont une couleurs inhérente leur utilité -->
-                <!-- bouton midifier -->
                 <a href="script_disc_ajout.php"<button type="submit" class="btn btn-success btn-sm mx-1 mb-3">Ajouter</button></a>
-                <!-- bouton ajouter -->
                 <a href="disc.php"<button type="button" class="btn btn-warning btn-sm mx-1 mb-3">Retour</button></a>
             </div> <!-- End of div for button -->
         </form>
@@ -50,16 +45,10 @@
 
     </div> <!-- End of container -->
 
-    <!-- Correspondance avec la BBD -->
     <?php
-    //checking if data has been entered
     if (isset($_GET['data']) && !empty($_GET['data'])) {
         $data = $_GET['data'];
-    } else {
-        header('location: script_disc_ajout.php'); // POUR L'INSTANT PAS D'EMPLACEMENT
-        exit();
     }
-
     //setting up mysql details
     // $sql_server = 'localhost';
     // $sql_user   = 'admin';

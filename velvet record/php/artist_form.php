@@ -37,9 +37,7 @@
     <label for="url">Adresse site internet :</label><br>
         <input type="text" name="url" id="url" value="<?= $myArtist['artist_url'] ?>"> <br><br>
 
-    <!-- bouton midifier -->
-    <button type="submit" class=" btn btn-secondary btn-sm mx-1">Modifier</button> <!-- le serveiller pour envoyer que les modifications -->
-    <!-- bouton retour -->
+    <button type="submit" class=" btn btn-secondary btn-sm mx-1">Modifier</button>
     <a href="script_artist_delete.php?id=<?= $id ?>"><button type="button" class="btn btn-danger btn-sm mx-1">Supprimer</button></a>
 
 </form>

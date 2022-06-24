@@ -1,8 +1,6 @@
 <?php
-// Get artist par l'id
     include 'db.php';
     
-    // Vérification des champs non vide
     foreach ($_POST as $key => $value) {
         $$key = $value;
     }

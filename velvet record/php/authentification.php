@@ -26,7 +26,6 @@
     include 'footer.php'
 
     include 'db.php';
-    // INSCRIPTION
     $connexion = ConnexionBase();
     $req = $connexion->prepare("select * from record where id = :id and name = :name");
     $req->bindValue(':id', $id);
@@ -42,7 +41,7 @@
     // }
 
 
-    // Créétion de la table
+    // Création de la table
     foreach (login as quelquechose) {
     "CREATE TABLE login IF NOT EXISTS ('
         user_id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -73,6 +72,5 @@
     $_SESSION["login"] = "$_SESSION"; // Au départ "webmaster"
     
     echo $_SESSION["login"];
-    echo"- session ID : ".session_id(); // retourne une chaîne vide si y a pas de sessuib
-
+    echo"- session ID : ".session_id();
 ?>

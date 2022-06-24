@@ -18,7 +18,6 @@
         die("Fin du script (script_artist_modif.php)");
     }
 
-    // Si OK: redirection vers la page artists.php
     TrtRedirection:
     header("Location: artists.php");
 ?>

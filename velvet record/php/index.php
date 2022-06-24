@@ -16,15 +16,15 @@
 <div class="container">
     <div class="d-flex">
     <p>Un câble mini-jack écrira re, passera devant le casque qui est le c,<br> puis derrière le vinyle pour ressortir par le trou <br> et écrire rd, la prise est donc la barre du d.</p><hr>
-    <img src="img/logotype/casqueRecord.png" alt="logocasque" title="logocasque" class="rounded mx-auto d-block">
-    <img src="img/logotype/vinyle.png" alt="logocasque" title="logocasque" class="rounded mx-auto d-block">
+    <img src="../img/logotype/casqueRecord.png" alt="logocasque" title="logocasque" class="rounded mx-auto d-block">
+    <img src="../img/logotype/vinyle.png" alt="logocasque" title="logocasque" class="rounded mx-auto d-block">
     <br>
     <hr>
     </div><!-- End of temporary div logo -->
 <br><br><br><br>
 
     <div class="text-center">
-        <a href="./php/authentification.php"><button type="button" class="btn btn-outline-dark btn-lg mx-5">S'inscrire</button></a>
-        <a href="./php/authentification.php"><button type="button" class="btn btn-outline-dark btn-lg mx-5">Se connecter</button></a>
+        <a href="authentification.php"><button type="button" class="btn btn-outline-dark btn-lg mx-5">S'inscrire</button></a>
+        <a href="authentification.php"><button type="button" class="btn btn-outline-dark btn-lg mx-5">Se connecter</button></a>
     </div> <!-- End of div button -->
 </div> <!-- End of container -->

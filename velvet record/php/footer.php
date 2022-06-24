@@ -6,8 +6,7 @@
 </body>
 
 <foot class="ftr">
-  <!-- navbar du footer -->
-  <nav class="navbar navbar-expend-lg bg-dark rounded"> <!-- fixed-bottom pour l'attacher en bas-->
+  <nav class="navbar navbar-expend-lg bg-dark rounded">
     <div class="container-fluid">
       <a class="navbar-brand text-light" href="#">Velvet record</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -38,4 +37,4 @@
   </nav>
 
 </foot>
-</html><!-- Les pages son fermés ici car c'est le fichier de bas de pages -->
+</html>

@@ -54,9 +54,7 @@
             <input for="insertPicture" type="file" class="btn btn-light form-control-file" id="insertPicture">
             <div class="d-flex">
                 <!-- les boutons ont une couleurs inhérente leur utilité -->
-                <!-- bouton ajouter -->
                 <button type="submit" class="btn btn-secondary btn-sm mx-1 mt-3 mb-3">Modifier</button>
-                <!-- bouton retour -->
                 <a href="disc.php>"<button type="button" class="btn btn-warning btn-sm mx-1 mt-3 mb-3">Retour</button></a>
             </div> <!-- End of div for button -->
         </fieldset>

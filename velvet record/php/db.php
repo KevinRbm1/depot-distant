@@ -1,7 +1,6 @@
 <!-- Database function library -->
 <?php
     function ConnexionBase() {
-        //  try catch essai attrape
         try 
         {
             $connexion = new PDO('mysql:host=localhost;charset=utf8;dbname=record', 'admin', 'root');

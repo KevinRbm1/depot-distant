@@ -16,7 +16,7 @@
 
 <body>
     <?php include 'db.php';
-    $db = ConnexionBase(); // connexion à la base
+    $db = ConnexionBase();
     $id = $_GET['id'];
 
     $detail = $db->prepare("SELECT 
@@ -52,7 +52,6 @@
                             <input type="text" class="form-control" value="<?= $result['year'] ?>" /><br>
                             <label>Label</label>
                             <input class="form-control" value="<?= $result['label'] ?>" /><br>
-                            <!-- the image will be displayed by crossing the tables of the database -->
                             <label>Image</label><br>
                             <img src="../img/jaquettes/<?= $result['picture'] ?>" alt="..." class="rounded float-left img-fluid mb-3">
                         </div> <!-- End of col left -->
@@ -67,7 +66,6 @@
                             <input type="text" class="form-control" value="<?= $result['price'] ?>" />
                             <br><br><br><br><br>
                         </div> <!-- End of col right -->
-                        <!-- Trois boutons ayant une couleurs inhérente à leur utilité -->
                         <div class="d-flex">
                             <!-- bouton midifier -->
                             <a href="disc_form.php?=disc_id"<button type="button" class=" btn btn-secondary btn-sm mx-1 mb-4">Modifier</button>
