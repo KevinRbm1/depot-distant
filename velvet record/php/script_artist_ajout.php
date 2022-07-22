@@ -15,12 +15,12 @@
         exit;
     }
 
-    // S'il n'y a pas eu de redirection vers le formulaire (= si la vérification des données est ok) :
+    // Pas eu de redirection vers le formulaire (= si vérification des données est ok):
     require "db.php"; 
     $db = connexionBase();
 
     try {
-        // Construction de la requête INSERT sans injection SQL :
+        // Construction equête INSERT sans injection SQL :
         $requete = $db->prepare("INSERT INTO disc (disc_title, disc_year, disc_genre, disc_label, disc_price, disc_picture) VALUES (:disc_title, :disc_year, :disc_genre, :disc_label, :disc_price);");
         
     

@@ -4,7 +4,6 @@
     foreach ($_POST as $key => $value) {
         $$key = $value;
     }
- 
     $db = ConnexionBase();
     $myArtist = $db->prepare("UPDATE artist SET artist_name = :name, artist_url = :url WHERE artist_id = :id;");
     $myArtist->bindValue(':name', $name, PDO::PARAM_STR);

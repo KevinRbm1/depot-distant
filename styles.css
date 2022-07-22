@@ -1,13 +1,11 @@
-/* Code CSS */
+    /* Code CSS */
 
-#logo
-{
+#logo {
     height: 50pt;
     width: auto;
 }
 
-#ttlejardin
-{
+#ttlejardin {
     min-height: 60px;
     text-indent: 10pt;
     align-items: center;
@@ -16,32 +14,27 @@
     color: white;
 }
 
-.actif 
-{
+.actif {
     text-indent: 10pt;
     display: flex;
     word-spacing: normal;
     color: white;
 }
 
-.jarditouLogo
-{
+.jarditouLogo {
     margin: 5px 0px 5px 0px;
     width: 100%;
 }
 
-h2
-{
+h2 {
     font-size: 1rem;
 }
 
-a
-{
+a {
     color: white;
 }
 
-#jardin
-{
+#jardin {
     align-items: center;
     text-align: center;
     font-size: 1.75em;
@@ -49,55 +42,39 @@ a
     margin-top: 1%;
 }
 
-img
-{
+img {
     width: 15%;
 }
 
-header
-{
+header {
     display: flex;
 }
 
-.contenant
-{
+.contenant {
     width: 100%;
     display: flex;
 }
 
-aside
-{
+aside {
     width: 40%;
     background-color: silver;
     display: flex;
 }
 
-@media only screen and (max-width: 768px)
-{
-    aside
-    {
+@media only screen and (max-width: 768px) {
+    aside {
         display: none;
     }
-
-    #ttlejardin
-    {
-    }
-    a
-    {      
+    #ttlejardin {}
+    a {
         display: grid;
     }
-
-    h1
-    {
+    h1 {
         font-size: 1.5rem;
     }
-    
-    h2
-    {
+    h2 {
         font-size: 1.5rem;
     }
-    .texte
-    {
+    .texte {
         font-size: 1.5rem;
-
     }

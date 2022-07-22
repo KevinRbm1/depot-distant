@@ -1,4 +1,3 @@
-/* Led titres doit être éloigner du bord */
 .conteneur {
     padding: 5px 0px 0px 0px;
 }
@@ -11,6 +10,6 @@
 
 .ftr {
     /* display: none; */
-    position:static;
+    position: static;
     border-bottom: 0rem;
 }
