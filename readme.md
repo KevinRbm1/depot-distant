@@ -58,6 +58,3 @@
 <br>
 <img scr="logo_src/symfony.png" width="100">
 <br>
-<br>
-<br>
-<br>
