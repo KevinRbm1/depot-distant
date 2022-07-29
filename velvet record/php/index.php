@@ -15,9 +15,6 @@
 </html>
 <div class="container">
     <div class="d-flex">
-    <p>Un câble mini-jack écrira re, passera devant le casque qui est le c,<br> puis derrière le vinyle pour ressortir par le trou <br> et écrire rd, la prise est donc la barre du d.</p><hr>
-    <img src="../img/logotype/casqueRecord.png" alt="logocasque" title="logocasque" class="rounded mx-auto d-block">
-    <img src="../img/logotype/vinyle.png" alt="logocasque" title="logocasque" class="rounded mx-auto d-block">
     <br>
     <hr>
     </div><!-- End of temporary div logo -->
