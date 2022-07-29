@@ -56,7 +56,7 @@
 
 > ## Symfony
 <br>
-<img scr="logo_src/symfony.png" width="100%">
+<img scr="logo_src/symfony.png" width="300">
 <br>
 <br>
 <br>
