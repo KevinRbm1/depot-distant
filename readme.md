@@ -2,7 +2,7 @@
 
 > ## Projet
 
-![Logo Jarditou](jarditou/images/jarditouLogo.jpg "Logo Jarditou")
+![Logo Jarditou](jarditou/images/jarditouLogo2.png "Logo Jarditou" ) 
 
 1. [Jarditou](html-ex1/) · · · · · · · · · · · > Jarditou HTML
 2. [Jarditou CSS](html_css-ex2/) · · · · · · · > Jarditou CSS
@@ -11,7 +11,7 @@
 
 > ## Velvet Record
 
-![logo du vinyle](vinyle.png "Vinyle")
+![logo du vinyle](vr.png  "Vinyle")
 
 1. [Velvet Rectord](velvet%20record) · · · · · > Velvet Record
 <br><br>
@@ -22,7 +22,7 @@
 > ##  JavaScript
 
 <br>
-<img src="logo_src/js.png" width="100">
+<img src="logo_src/js.png" width="100" title="JavaScript">
 <br>
 <br>
 
@@ -34,7 +34,7 @@
 
 > ##  SQL
 <br>
-<img src="logo_src/sql.png" width="100">
+<img src="logo_src/sql.png" width="100" title="SQL">
 <br>
 <br>
 
@@ -44,7 +44,7 @@
 
 > ##  PHP
 <br>
-<img src="logo_src/php.png" width="100">
+<img src="logo_src/php.png" width="100" title="PHP">
 <br>
 <br>
 
@@ -54,7 +54,7 @@
 * [ex4](PhP/ex4-fonctions-(2).php) · · · · · · · · · · · · · · · · · · · > Somme des valeurs
 * [ex5](PhP/ex5-fonctions.php) · · · · · · · · · · · · · · · · · · · > vérification mot de passe
 
-> ## Symfony
+> ## Framework Symfony
 <br>
-<img scr="logo_src/symfony.png" width="100">
+<img align="left" src="logo_src/SfS.png" alt="homepage" title="Symfony" widht="auto" height="64px">
 <br>
