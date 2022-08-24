@@ -10,7 +10,6 @@ include 'header.php';
   $disques->execute();
 
   $result = $disques->fetchAll(PDO::FETCH_OBJ);
-  // print_r($result); // pour voir si les infos remontent
   ?>
 
   <div class="container conteneur mt-3">
@@ -32,7 +31,7 @@ include 'header.php';
         <div class="card mb-3 border-0" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-5">
-              <img src="img/jaquettes/rtr.jpeg <?= $disc->disc_picture ?>" class="img-fluid rounded" alt="...">
+              <img src="depot-local/vr.png <?= $disc->disc_picture ?>" class="img-fluid rounded" alt="...">
             </div> <!-- End of col for "jaquette" -->
             <div class="col-md-7">
               <div class="card border-0">
@@ -58,4 +57,4 @@ include 'header.php';
 
 <?php
 include 'footer.php';
-?>
+?>  // print_r($result); // pour voir si les infos remontent

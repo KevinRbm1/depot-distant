@@ -5,7 +5,6 @@
         header("Location: disc.php");
         exit;// sinon il continu le traitement en bas il est pas obligatoire s'il n'y a rien en dessous
     }
-    // Si la vérification est ok :
     require "db.php"; 
     $db = ConnexionBase();
     // var_dump($db);
@@ -25,5 +24,4 @@
     // Si OK: redirection vers la page artists.php
     header("Location: disc.php"); // sinon il y va pas
     exit;
-   
 ?>

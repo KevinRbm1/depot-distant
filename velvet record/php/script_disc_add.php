@@ -63,7 +63,6 @@
 
         $aMimeTypes = array("img/gif", "img/jpeg", "img/pjpeg", "img/png", "img/x-png", "img/tiff", "image/gif", "image/jpeg", "image/pjpeg", "image/png", "image/x-png", "image/tiff");
 
-        // Type du fichier via l'extension FILE_INFO 
         $finfo = finfo_open(FILEINFO_MIME_TYPE);
         $mimetype = finfo_file($finfo, $_FILES["pics"]["tmp_name"]);
         finfo_close($finfo);

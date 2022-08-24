@@ -45,8 +45,8 @@ include 'header.php';
                                 <label>Image</label><br>
                                 <img src="img/jaquettes/<?= $result['picture'] ?>" alt="..." class="rounded float-left img-fluid mb-3" name="pics">
                             </div> <!-- End of col left -->
-                            <div class="col-1"></div>
-                            <div class="col-5"> <!-- col right -->
+                            <div class="col-2"></div>
+                            <div class="col-4"> <!-- col right -->
                                 <!-- right -->
                                 <label>Artiste</label>
                                 <input type="text" class="form-control" name="artist" value="<?= $result['artist'] ?>" disabled /><br>

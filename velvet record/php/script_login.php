@@ -1,13 +1,12 @@
 <?php
 include 'db.php';
-include 'fn.php'; // inclu les fonctions
+include 'fn.php';
 
 // // Identifiant de session
 // session_start(); // pour débuter la session et contient autant de valeur que je veux (âge, etc).
 
-// Déstruction propre de la session
 $db =  ConnexionBase();
-cleandesctructsession(); // cf fn.php
+cleandesctructsession();
 
 $login = $_POST["login"];
 $password = $_POST["password"];
