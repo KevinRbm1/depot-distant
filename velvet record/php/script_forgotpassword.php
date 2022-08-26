@@ -1,23 +1,21 @@
 <!-- 
 
-1.  Mot de passe oublié : demander à l'utilisateur de re-saisir l'adresse mail de son compte et demander une re-génération (bouton) FAIT
+a.  Le mot de passe oublié : donc demander à l'utilisateur de re-saisir son adresse mail de son compte et demander une re-génération.
 
 
-2.  Générer un token qui va être stocké en BDD sur l'enregistrement de la ligne de l'utilisateur
+b.  Générer un token qui va être stocké en BDD sur l'enregistrement de la ligne de l'utilisateur.
 
-3.  Préparer un lien pour le mail : page forgotpassword.php avec le token en paramètre ($_GET)
+c.  Préparer ensuite un lien pour le mail : page forgotpassword.php avec le token en paramètre. ($_GET)
+    de plus envoyer le lien par mail à l'utilisateur.
 
-    + envoyer le lien par mail à l'utilisateur
 
+d.  Sur la page forgotpassword.php, prévoir un CAPTCHA pour vérifier l'existence d'un paramètre contenant le token à récupérer
 
-4.  Sur la page forgotpassword.php, prévoir de pouvoir vérifier l'existence d'un paramètre contenant le token à récupérer
-
-5.  Vérifier dans la BDD que ce token existe et retrouver à quel compte il est destiné
-
+e.  Vérifier dans la BDD que ce token existe et retrouver à quel compte il est concerné.
         - si le token existe, on permet à l'utilisateur de changer son password et on le met à jour (hashé) en BDD
         - sinon, on affiche un message d'erreur à l'utilisateur "lien invalide"
 
-6.  Enfin supprimer le token utilisé de la BDD
+f.  Enfin supprimer le token utilisé de la BDD.
 
 -->
 
@@ -33,7 +31,7 @@ var_dump($montoken);
 $montoken = $montoken->format("YmdHis") . random_int(0, 999999); // date + un nombre aléatoire assez grand car il doit-être unique
 var_dump($montoken);
 
-$montoken = password_hash($montoken, PASSWORD_DEFAULT);  // hash et plus sûre que crypt car il faudra utiliser le methode GET // enr ça en bdd
+$montoken = password_hash($montoken, PASSWORD_DEFAULT);  // hash est plus sûre que crypt car il faudra utiliser le methode GET // enr ça en bdd
 var_dump($montoken);
 
 $tokencode = urlencode($montoken);
@@ -44,7 +42,7 @@ $lien = "http://localhost:3333/afpaDev/projets/record/forgotpassword.php?ytpy=" 
 var_dump($lien);
 
 // Vérifier en dbb si c'est la bonne puis donné l'accés si c'est OK
-$tokendecode = urldecode($tokencode); // décriper l'url pour vérif en bdd
+$tokendecode = urldecode($tokencode);
 var_dump($tokendecode);
 if (isset($tokendecode))
 

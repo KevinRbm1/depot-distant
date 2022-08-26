@@ -40,7 +40,7 @@
         </div> <!-- End of div button -->
     </form>
 </div> <!-- End of container -->
-<?php // msg de confimation d'inscrption
+<?php 
 if (isset($_GET["register"]) && $_GET["register"] == "success") {?> <!-- register = param et success = valeur       si val = 1 je peux mettre true dans index -->
     <div class="alert alter-sm alert-success alert-dismissible fade show text-center" role="alert">
         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">

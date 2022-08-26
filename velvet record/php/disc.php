@@ -3,8 +3,8 @@ include 'header.php';
 ?>
 <body>
   <?php
-  include "db.php"; // connexion à la base de données
-  $db = ConnexionBase(); // connexion
+  include "db.php";
+  $db = ConnexionBase();
   // éviter l'injection SQL [ prepare(la requête) puis execute() ]
   $disques = $db->prepare("SELECT * FROM disc, artist WHERE artist.artist_id = disc.artist_id ;"); // ORDER BY disc_title
   $disques->execute();
@@ -23,8 +23,6 @@ include 'header.php';
       </div> <!-- End of col-1 , button 'ajouter' -->
     </div> <!-- End of row -->
   </div> <!-- End of container -->
-  <!-- La jaquette est à gauche et les infos à droite -->
-  <!-- deux colonnes contenant deux colonnes -->
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
       <?php foreach ($result as $disc) : ?>

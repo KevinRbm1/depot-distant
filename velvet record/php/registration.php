@@ -28,8 +28,8 @@
                         </div>
                     </div>
                     <button type="submit" class="mt-4 mb-4 btn btn-sm btn-success" title="Je valide l'inscription" alt="S'inscrire"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-save2" viewBox="0 0 16 16">
-                            <img src="https://cdn-icons-png.flaticon.com/512/7010/7010100.png" width="24" height="24" alt="S'inscrire" title="S'inscrire" class="img-small">
-                        </svg> S'inscrire</button>
+                            <img src="https://cdn-icons-png.flaticon.com/512/7010/7010100.png" width="24" height="24" alt="S'inscrire" title="S'inscrire" class="position-static translate-middle-x img-small">
+                        </svg>S'inscrire</button>
                 </form>
             </div>
         </div>

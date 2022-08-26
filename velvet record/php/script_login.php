@@ -2,9 +2,6 @@
 include 'db.php';
 include 'fn.php';
 
-// // Identifiant de session
-// session_start(); // pour débuter la session et contient autant de valeur que je veux (âge, etc).
-
 $db =  ConnexionBase();
 cleandesctructsession();
 

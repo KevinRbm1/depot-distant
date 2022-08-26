@@ -6,7 +6,6 @@ var_dump($_POST);
 // die;
 include 'fn.php';
 
-// Récup du nom d'utilisateur
 if (isset($_POST['user_name']) && $_POST['user_name'] != "") {
     $username = $_POST['user_name'];
 } else {
@@ -20,14 +19,12 @@ if (isset($_POST['user_firstname']) && $_POST['user_firstname'] != "") {
     $userfirstname = null;
         }
 
-// récup du mail
 if (isset($_POST['user_mail']) && $_POST['user_mail'] != "") {
     $usermail = $_POST['user_mail'];
 } else {
     $usermail = null;
         }
 
-// récup du mot de passe
 if (isset($_POST['user_password']) && $_POST['user_password'] != "") {
     $userpwd = $_POST['user_password'];
 } else {
