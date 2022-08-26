@@ -1,5 +1,4 @@
 <?php
-// Tester la session
 function testsession(){
 session_start();
 if ( ! isset($_SESSION["login"]) ) {
@@ -7,13 +6,11 @@ if ( ! isset($_SESSION["login"]) ) {
     echo"Veuillez vous authentifier";
     exit;
 }
-// Reste du code (PHP/HTML)
 echo"Bonjour ".$_SESSION["login"];  
 }
 
 // Sécurité
 
-// Vérifier les saisies
 function verifsaisies(){
     // les saisies à vérifier // ceci s'exécute d'an la deuxième instance du formulaire
     if ($_POST["REQUEST_METHOD"] == "POST"){

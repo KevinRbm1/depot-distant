@@ -51,5 +51,4 @@ else {
     header("Location: index.php?err=user");
     exit;
 }
-
 ?>
