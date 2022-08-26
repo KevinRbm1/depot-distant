@@ -10,7 +10,7 @@ f="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel=
             <nav class="header navbar navbar-expand-lg bg-dark">
                 <!-- fixed-top -->
                 <div class="container-fluid">
-                    <a class="col-9 navbar-brand text-light mx-2" href="index.php"><img src="img/logo/vinyle.png" alt="logo de Velvet record" width="auto" height="24" class=""> Velvet Record</a>
+                    <a class="col-9 navbar-brand text-light mx-2" href="index.php"><img src="logo_src/vr.png" alt="logo de Velvet record" width="auto" height="24" class=""> Velvet Record</a>
 
                     <?php
 
