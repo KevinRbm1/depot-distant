@@ -36,7 +36,7 @@
         <div class="text-center">
             <a href="registration.php"><button type="button" class="btn btn-outline-secondary btn-sm mx-5 mb-5" alt="S'inscrir" title="Je m'inscris">S'inscrire</button></a>
             <button type="submit" class="btn btn-outline-primary btn-sm mx-5 mb-5" alt="Se connecter" title="Je me connecte" value="">Se connecter</button>
-            <a href="confirmomission.php"><button type="button" class="btn btn-outline-primary btn-sm mx-5 mb-5" alt="Mot de passe oublié" title="Oh zut ! J'ai oublié mon mot de passe">Mot de passe oublié</button></a>
+            <a href="confirmomission.php"><button type="button" class="btn btn-outline-primary btn-sm mx-5 mb-5" alt="Mot de passe oublié" title="Aïe ! J'ai oublié mon mot de passe">Mot de passe oublié</button></a>
         </div> <!-- End of div button -->
     </form>
 </div> <!-- End of container -->

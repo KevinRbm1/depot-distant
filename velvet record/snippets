@@ -46,7 +46,6 @@ Site Internet : <?=myArtist->artist_url ?>
         exit;
     }
 
-    // // Si la vérification des données est ok :
     require "db.php"; 
     $db = connexionBase();
 

@@ -28,7 +28,7 @@ function verifsaisies(){
         $input = stripslashes($input); // enlève les antislaches
         $input = htmlspecialchars($input); // enlève les caractères spéciaux
         return $input;
-    } // fun de verifyinput
+    } // fin de verifyinput
 } // fin de la fonction verifsaisies
 
 // Détruire proprement une session
