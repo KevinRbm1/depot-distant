@@ -56,5 +56,5 @@
 
 > ## Framework Symfony
 <br>
-<img align="left" src="logo_src/SfS.png" alt="homepage" title="Symfony" widht="auto" height="64px">
+<img align="left" src="logo_src/SfS.png" title="Symfony" widht="auto" height="64px">
 <br>
